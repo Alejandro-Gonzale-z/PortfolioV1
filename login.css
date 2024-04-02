@@ -1,0 +1,95 @@
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-image: url('/assests/login_background5.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100%; 
+}  
+
+html {
+    scroll-behavior: smooth;
+}
+
+.heading-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(218, 223, 225);
+    justify-content: center;
+    align-items: center;
+    padding: 2% 5% 5% 5%;
+    width: 25%;
+    margin-left: 32.5%;
+    border-radius: 40px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); /* Add box shadow */
+    gap: 30px;
+}
+
+.heading {
+    font-size: 32px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    height: 30px;
+    border-color: none;
+    width: 400px;
+    font-size: 18px;
+}
+.input:focus {
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    height: 30px;
+    border-color: none;
+    width: 400px;
+    font-size: 18px;
+    outline: none;
+}
+
+.btn {
+    background: #33b249;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    width: 250px;
+    height: 45px;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.btn:hover {
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+
+
+/* .footer-container {
+    margin-top: 8%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-container {
+    font-size: 22px;
+} */

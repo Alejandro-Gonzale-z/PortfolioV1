@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <div class="heading-container">
+      <h1>Google-Work-Auto</h1>
+      <h2>Admins Only! Please login to continue</h2>
+    </div>
+    <div class="form-container">
+      <div class="heading">Login In</div>
+      <form class="form" method="post" action="/login" novalidate>
+        <input
+          class="input"
+          type="text"
+          placeholder="Username"
+          id="username"
+          name="username"
+          autocomplete="off"
+          required
+        />
+        <input
+          class="input"
+          type="password"
+          placeholder="Password"
+          id="password"
+          name="password"
+          required
+        />
+        <input class="btn" type="submit" value="Login" />
+      </form>
+    </div>
+    <!-- <footer class="footer-container">
+      <p class="footer-p">Copyright &#169; 2023 Alejandro Gonzalez. All Rights Reserved.</p>
+    </footer> -->
+  </body>
+</html>
