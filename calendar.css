@@ -1,0 +1,60 @@
+body{
+    font-family: "Poppins", sans-serif;
+    background-image: url('/assests/login_background.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100%; 
+    padding: 2vh 2vw;
+    margin: 0;
+}
+
+.heading-container { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading{
+    font-size: 48px;
+}
+
+.body-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-container{
+    background-color: rgb(175, 175, 175);
+    height: 60vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20vh;
+    padding: 5vw 5vh;
+    border-radius: 40px;
+}
+
+.opt-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    background: #33b249;
+    color: white;
+    border: none;
+    width: 25%;
+    height: 5vh;
+    border-radius: 20px;
+    font-size: 22px;
+}
+
+.btn:hover {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+    outline: solid 2px rgb(68, 68, 68);
+}
+
+.description {
+    font-size: 22px;
+}

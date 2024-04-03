@@ -3,15 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Google-Work-AUTO</title>
+    <link rel="stylesheet" href="calendar.css" />
+    <link rel="icon" href="assests/calendar.png" type="image/x-icon" />
+    <title>Google-Work-Auto</title>
 </head>
 <body>
-    <h1>It Worked</h1>
-    <!-- DISPLAY A HEADING GOOGLE-WORK-AUTO -->
-    <!-- THEN DISPLAY TWO BUTTONS WITH DESCRIPTIONS -->
-    <!-- ONE BUTTON SHOULD REMOVE GENERATE A NEW TOKEN -->
-    <!-- THE OTHER BUTTON SHOULD ADD THE EVENTS TO THE CALENDAR -->
-    <!-- CREATE EITHER A PROGRESS BAR OR A MODAL -->
-    <!-- WHEN EITHER BUTTON IS CLICKED EITHER A PROGRESS BAR OR MODAL APPEAR TO INDICATED SUCCESS -->
+    <div class="heading-container">   
+        <h1 class="heading">Google-Work-Auto</h1>
+    </div>
+    <div class="body-wrapper">
+        <div class="body-container">
+            <div class="opt-container">
+                <button class="btn" id="button1">Create Schedule</button>
+                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel ab nesciunt odio corporis libero atque dolores voluptates quaerat, in ea!</p>
+            </div>
+            <div class="opt-container">
+                <button class="btn" id="button2">Refresh Token</button>
+                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur deserunt repellendus numquam dolorum obcaecati aperiam nesciunt commodi nisi? Nemo, deserunt.</p>
+            </div>
+        </div>
+    </div>
+    <script src="./calendar.js"></script>
 </body>
 </html>

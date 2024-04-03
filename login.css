@@ -1,7 +1,7 @@
 
 body {
     font-family: "Poppins", sans-serif;
-    background-image: url('/assests/login_background5.jpeg');
+    background-image: url('/assests/login_background.jpeg');
     background-size: cover;
     background-position: center;
     height: 100%; 
@@ -16,8 +16,12 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 5%;
+    margin-bottom: 2.5%;
     margin-top: 5%;
+}
+
+.heading1 {
+    font-size: 56px;
 }
 
 .form-container {
@@ -34,7 +38,7 @@ html {
     gap: 30px;
 }
 
-.heading {
+.login-heading {
     font-size: 32px;
 }
 
@@ -54,6 +58,7 @@ html {
     border-color: none;
     width: 400px;
     font-size: 18px;
+
 }
 .input:focus {
     border: none;
@@ -81,10 +86,8 @@ html {
     box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.3);
 }
 
-
-
-/* .footer-container {
-    margin-top: 8%;
+.footer-container {
+    margin-top: 1%;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -92,4 +95,4 @@ html {
 
 .footer-container {
     font-size: 22px;
-} */
+}
