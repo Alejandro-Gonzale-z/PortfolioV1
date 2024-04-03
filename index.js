@@ -92,6 +92,10 @@ app.post('/create-schedule', async (req, res) => {
     }
 })
 
-var server = app.listen(PORT, function(){
+const port = process.env.PORT || 10000;
+
+app.listen(PORT, '0.0.0.0', () => {
     console.log("Express app running at localhost:3000");
 })
+
+module.exports = app;
